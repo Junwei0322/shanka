@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 生詞翻轉卡 (隨機+過濾版)</title>
+    <title>HTML5 生词翻转卡 (随机+过滤版)</title>
     <style>
         body {
             font-family: "微軟正黑體", "Helvetica Neue", Arial, sans-serif;
@@ -168,13 +168,13 @@
 </head>
 <body>
 
-    <h1>隨機生詞練習</h1>
+    <h1>随机生词练习</h1>
 
     <div class="scene">
         <div class="card">
             <div class="card__face card__face--front">
                 <h2 id="word-display">Loading...</h2>
-                <p style="font-size: 1rem; color: #888; margin-top: 10px;">(點擊翻看解釋)</p>
+                <p style="font-size: 1rem; color: #888; margin-top: 10px;">(点击翻看解释)</p>
             </div>
             <div class="card__face card__face--back">
                 <div class="meaning" id="meaning-display"></div>
@@ -184,17 +184,17 @@
         
         <div id="game-over">
             <h2>🎉 太棒了！</h2>
-            <p style="font-size: 1.5em; color: #555;">你已經複習完所有單字！</p>
-            <button class="btn-restart" onclick="restartGame()">重新開始</button>
+            <p style="font-size: 1.5em; color: #555;">你已经复习完所有单字！</p>
+            <button class="btn-restart" onclick="restartGame()">重新开始</button>
         </div>
     </div>
 
     <div class="controls">
-        <button class="btn-nav" id="skip-btn">跳過 (不熟)</button>
-        <button class="btn-known" id="known-btn">✅ 我認識 (移除)</button>
+        <button class="btn-nav" id="skip-btn">跳过 (不熟)</button>
+        <button class="btn-known" id="known-btn">✅ 我认识 (移除)</button>
     </div>
     
-    <div class="counter">剩餘單字: <span id="remaining-count" style="color: #e74c3c;">0</span></div>
+    <div class="counter">剩余单字: <span id="remaining-count" style="color: #e74c3c;">0</span></div>
 
     <script src="words.js"></script>
 
